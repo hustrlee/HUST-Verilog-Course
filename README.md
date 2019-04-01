@@ -25,4 +25,4 @@
 - 实验板有两种，Nexys4 和 Nexy4 DDR。两种实验板的约束文件不同，请大家注意领取的实验板型号（在盒子封面以及实验板的中心位置有标识），使用不同的约束文件。（[Nexys4 约束文件](./Nexys4/Nexys4_Master.xdc)、[Nexys4 手册](./Nexys4/Nexys4_RM_VB2_Final_5.pdf)、[Nexys4 DDR 约束文件](./Nexys4/Nexys4DDR_Master.xdc)、[Nexys4 DDR 手册](./Nexys4/nexys4ddr_rm.pdf)）
 - 实验软件环境为：Xilinx Vivado 2015.2（并非 Vivado 的最新版本）。
 - 若希望在自己的 PC/Mac 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。新版 Vivado，使用界面与实验室略有不同，适合有兴趣的同学自行摸索。
-- Vivado Windows 版适用于 Windows 7 / Windows 10，（[百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682）
+- Vivado for Windows 版适用于 Windows 7 / Windows 10。（[百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682）
