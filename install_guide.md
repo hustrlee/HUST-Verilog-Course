@@ -18,3 +18,5 @@ Vivado HLx 2018.3 要求的操作系统版本如下：
 - Ubuntu Linux 16.04.4 and 18.04 LTS: 64-bit - Additional library installation required
 
 Vivado 2018.3 需要 Windows 10 Professional 1803 and 1809 x64 版本。非专业版，或子版本号低于 1803 的，可能会出现未知的问题。
+
+[未完，待更新......]
