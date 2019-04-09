@@ -29,5 +29,6 @@
 - 实验软件环境为：Xilinx Vivado 2015.2（并非 Vivado 的最新版本）。
 - 若希望在自己的 PC/Mac 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。新版 Vivado，使用界面与实验室略有不同，适合有兴趣的同学自行摸索。
 - Vivado for Windows 版适用于 Windows 7 / Windows 10。（[百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682）
+- 4/9/2019 更新：百度下载添加 Vivado 2018.3 版本下载。
 ### 实验指导书
 - [实验指导书下载](./实验指导书/实验指导书.v1.0.rar)
