@@ -1,4 +1,4 @@
-# Vivado HLx 2018.3 安装指南
+# Vivado HLx 2018.3 简明安装指南
 
 本指南主要针对本课程所需的、基于 Windows 10 的 Vivado 开发环境安装。完整的安装指南请参考：[Xilinx 官方安装指南](https://china.xilinx.com/content/dam/xilinx/support/documentation/sw_manuals/xilinx2018_3/ug973-vivado-release-notes-install-license.pdf)。
 
