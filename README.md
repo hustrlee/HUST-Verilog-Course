@@ -11,7 +11,7 @@
   + [硬件环境](#硬件环境)
   + [软件环境](#软件环境)
   + [实验指导书](#实验指导书)
-  + [Vivado HLx 2018.3 安装指南](#Vivado-HLx-20183-安装指南)
+  + [Vivado HLx 2018.3](#Vivado-HLx-20183)
 
 ## 课程目标
 
@@ -63,7 +63,7 @@
 
 - [实验指导书下载](./实验指导书/实验指导书.v1.0.rar)
 
-### Vivado HLx 2018.3 安装指南
+### Vivado HLx 2018.3
 
 目前（4/9/2019），Vivado 的最新版本是 Vivado HLx 2018.3 Update 1。其安装程序由：Vivado HLx 2018.3 和补丁包 Update 1 构成。完整安装需先安装 Vivado HLx 2018.3，再安装 Update 1。由于 Update 1 只是添加了对更多 device 的支持，对于本课程来说并不需要，因此无需安装 Update 1，仅安装 Vivado HLx 2018.3 本体即可。
 
