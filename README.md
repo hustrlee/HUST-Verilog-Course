@@ -5,6 +5,13 @@
 ## 目录
 
 - [课程目标](#课程目标)
+- [教材、参考书籍](#教材参考书籍)
+- [课件](#课件)
+- [实验须知](#实验须知)
+  + [硬件环境](#硬件环境)
+  + [软件环境](#软件环境)
+  + [实验指导书](#实验指导书)
+  + [Vivado HLx 2018.3 安装指南](#VivadoHLx2018.3安装指南)
 
 ## 课程目标
 
@@ -12,12 +19,15 @@
 - 掌握应用 Xilinx Vivado 进行 Verilog 程序设计和开发的基本流程和方法
 - 建立 Verilog 硬件设计的基本概念，会使用 Verilog 语言描述、设计简单的数字电路
 
-## 教材、参考书籍、课件
+## 教材、参考书籍
 
 - 教材：Verilog HDL 入门，第3版（A Verilog HDL Primer, Third Edition），（美）巴斯克著，夏宇闻、甘伟译，北京航空航天大学出版社，2008.
 - 参考书：EDA 技术实用教程 ———— Verilog 版（第五版），潘松、黄继业，科学出版社，2010.
 - 以上书籍“京东”、“亚马逊”有售。
-- [课件下载](./PPT/)
+
+## 课件
+
+[课件下载](./PPT/)
 
 ## 教学安排
 
@@ -44,20 +54,19 @@
 ### 软件环境
 
 - 实验软件环境为：Xilinx Vivado 2015.2（并非 Vivado 的最新版本）。
-- 若希望在自己的 PC/Mac 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。新版 Vivado，使用界面与实验室略有不同，适合有兴趣的同学自行摸索。
-- Vivado for Windows 版适用于 Windows 7 / Windows 10。（[百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682）
+- 若希望在自己的 PC/Mac 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。
+- 最新版 Vivado 也可以兼容本课程的所有实验，其使用界面与 2015.2 略有不同，适合有兴趣的同学自行摸索。
+- 可以使用（[Vivado 百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682）来加速下载。
 - 4/9/2019 更新：百度下载添加 Vivado 2018.3 版本下载。
 
 ### 实验指导书
 
 - [实验指导书下载](./实验指导书/实验指导书.v1.0.rar)
 
-## Vivado HLx 2018.3
+### Vivado HLx 2018.3 安装指南
 
 目前（4/9/2019），Vivado 的最新版本是 Vivado HLx 2018.3 Update 1。其安装程序由：Vivado HLx 2018.3 和补丁包 Update 1 构成。完整安装需先安装 Vivado HLx 2018.3，再安装 Update 1。由于 Update 1 只是添加了对更多 device 的支持，对于本课程来说并不需要，因此无需安装 Update 1，仅安装 Vivado HLx 2018.3 本体即可。
 
 Vivado HLx 2018.3 相较于 Vivado 2015.2 稳定性有较大提高，已经可以很好的处理 Unicode 的问题，对中文的支持较完善，不再要求全英文路径；同时，界面风格也更现代化。建议升级到 Vivado HLx 2018.3 来学习本课程。
 
-### 安装指南
-
-Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装选项比较复杂，如开发环境不能正常运行，请参考[“安装指南”](./install_guide.md)。
+Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装选项比较复杂，如开发环境不能正常运行，请参考[“Vivado HLx 2018.3 安装指南”](./install_guide.md)。
