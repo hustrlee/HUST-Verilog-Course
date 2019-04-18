@@ -98,4 +98,4 @@ Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装�
   
   - 关闭实验板，并将实验板从 USB 口拔下。
   - 重新启动 PC。
-  - 单独安装 Xilinx USB Cable Driver，安装过程参考官方文档：[在不全面重新安装 Vivado 设计套件的情况下，是否能够（重新安装）安装 Xilinx USB/Digilent 线缆驱动器？(中文）](https://china.xilinx.com/support/answers/59128.html)，或[Is it possible to (re)install the Xilinx USB/Digilent cable drivers without a full reinstall of Vivado Design Suite? (English)](https://www.xilinx.com/support/answers/59128.html)
+  - 单独安装 Xilinx USB Cable Driver，安装过程参考官方文档：[“在不全面重新安装 Vivado 设计套件的情况下，是否能够（重新安装）安装 Xilinx USB/Digilent 线缆驱动器？(中文）”](https://china.xilinx.com/support/answers/59128.html)，或[ "Is it possible to (re)install the Xilinx USB/Digilent cable drivers without a full reinstall of Vivado Design Suite? (English)"](https://www.xilinx.com/support/answers/59128.html)。
