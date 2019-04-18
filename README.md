@@ -70,3 +70,12 @@
 Vivado HLx 2018.3 相较于 Vivado 2015.2 稳定性有较大提高，已经可以很好的处理 Unicode 的问题，对中文的支持较完善，不再要求全英文路径；同时，界面风格也更现代化。建议升级到 Vivado HLx 2018.3 来学习本课程。
 
 Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装选项比较复杂，如开发环境不能正常运行，请参考[“Vivado HLx 2018.3 安装指南”](./install_guide.md)。
+
+## Q&A
+
+### Q：连不上实验板怎么办？
+
+连不上实验板有以下几种可能性：
+
+1. Xilinx USB Cable Driver 挂死。
+2. 没有安装 Xilinx USB Cable Driver。
