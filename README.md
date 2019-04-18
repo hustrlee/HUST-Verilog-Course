@@ -79,7 +79,7 @@ Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装�
 
 连不上实验板有以下几种可能性：
 
-1. Xilinx USB Cable Driver 挂死。
+**1. Xilinx USB Cable Driver 挂死。**
   
   原因：由于没有按照正确的顺序插拔、开关实验板，可能导致 Xilinx USB Cable Driver 挂死。
   
@@ -90,7 +90,7 @@ Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装�
   - 将实验板插上，并打开电源开关。
   - 如还不能正确连接，尝试换一个 USB 接口。
   
-2. 没有正确安装 Xilinx USB Cable Driver。
+**2. 没有正确安装 Xilinx USB Cable Driver。**
 
   原因：在 Vivado 安装时，没有选中“安装 Xilinx USB Cable Driver”，或没有按照要求：在安装过程中，应拔下实验板。
   
