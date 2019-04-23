@@ -99,3 +99,13 @@ Vivado 是一个专业软件，相较于 Office 等大众软件来说，安装�
   - 关闭实验板，并将实验板从 USB 口拔下。
   - 重新启动 PC。
   - 单独安装 Xilinx USB Cable Driver，安装过程参考官方文档：[“在不全面重新安装 Vivado 设计套件的情况下，是否能够（重新安装）安装 Xilinx USB/Digilent 线缆驱动器？(中文）”](https://china.xilinx.com/support/answers/59128.html)，或[ "Is it possible to (re)install the Xilinx USB/Digilent cable drivers without a full reinstall of Vivado Design Suite? (English)"](https://www.xilinx.com/support/answers/59128.html)。
+  
+  ### Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？
+  
+  **1. 检查 Vivado 版本和 License**
+  
+  如果安装的是 Webpack 版，是不需要 License 的；如果安装的是 Design Edition 或 System Edition，则需要 License。建议安装 Webpack 版本。
+  
+  **2. 防病毒软件可能会导致安装不正确**
+  
+  360、腾讯电脑管家可能会阻止某些 .bat 文件的运行，阻止修改系统设置，从而导致 Vivado 安装不正确。建议：关闭防病毒软件后，重新安装 Vivado；在运行 Vivado 时，保持防病毒软件关闭。
