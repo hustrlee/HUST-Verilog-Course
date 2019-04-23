@@ -14,6 +14,7 @@
   + [Vivado HLx 2018.3](#Vivado-HLx-20183)
 - [Q&A](#QA)
   + [Q：连不上实验板怎么办？](#Q连不上实验板怎么办)
+  + [Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？](#q%E5%AE%89%E8%A3%85%E5%AE%8C%E6%AF%95%E5%90%8E%E4%BB%BF%E7%9C%9Fsimulation%E7%BB%BC%E5%90%88synthesis%E5%AE%9E%E7%8E%B0implementation%E7%AD%89%E5%8A%9F%E8%83%BD%E4%B8%8D%E8%83%BD%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C%E6%80%8E%E4%B9%88%E5%8A%9E)
 
 ## 课程目标
 
