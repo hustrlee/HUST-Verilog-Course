@@ -11,10 +11,10 @@
   + [硬件环境](#硬件环境)
   + [软件环境](#软件环境)
   + [实验指导书](#实验指导书)
-  + [Vivado HLx 2018.3](#Vivado-HLx-20183)
+  + [Vivado Lab 2019.2 for Windows](#Vivado-Lab-20192-for-Windows)
 - [Q&A](#QA)
   + [Q：连不上实验板怎么办？](#Q连不上实验板怎么办)
-  + [Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？](#q%E5%AE%89%E8%A3%85%E5%AE%8C%E6%AF%95%E5%90%8E%E4%BB%BF%E7%9C%9Fsimulation%E7%BB%BC%E5%90%88synthesis%E5%AE%9E%E7%8E%B0implementation%E7%AD%89%E5%8A%9F%E8%83%BD%E4%B8%8D%E8%83%BD%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C%E6%80%8E%E4%B9%88%E5%8A%9E)
+  + [Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？](#Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？)
 
 
 
@@ -65,31 +65,39 @@
 
 ### 软件环境
 
-- 实验软件环境为：Xilinx Vivado 2015.2（并非 Vivado 的最新版本）。
+- 实验软件环境为：Xilinx Vivado HLx Editions 2015.2（并非 Vivado 的最新版本）。
 - 若希望在自己的 PC 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。
   - Vivado 只支持 Windows / Linux，并不支持 macOS。
-- 最新版 Vivado 也可以兼容本课程的所有实验，其使用界面与 2015.2 略有不同，适合有兴趣的同学自行摸索。
+- 最新版 Vivado 兼容本课程的所有实验，其使用界面与 2015.2 略有不同，适合有兴趣的同学自行摸索。
 - 可以使用（[Vivado 百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682）来加速下载。
-- 2020-03-13 更新：百度下载添加 Vivado Lab 2019.2 for Windows 版本下载。
+- 2020-03-13 更新：百度下载添加 Vivado HLx Editions 2019.2 版本下载。
+- 2020-03-13 更新：百度下载添加 Vitis Core Development Kit 2019.2 版本下载。
 
 ### 实验指导书
 
-- [实验指导书下载](./实验指导书/实验指导书.v1.0.rar)
+- [实验指导书下载](./instruction/experiment-instruction.v1.rar)
 
-### Vivado Lab 2019.2 for Windows
+### Vivado HLx Editions 和 Vitis Core Development Kit
 
-目前（2020-03-13），Vivado 的最新版本是 Vivado HLx 2019.2 Update 1。
+Xilinx 在 2019 年 10 月，推出了 “Vitis” 统一软件平台，其包括目标平台、核心开发套件、加速库和特定领域开发环境，能够让软硬件开发者们在无需掌握硬件专业知识的情况下，根据软件或算法代码来自动适配并使用赛灵思的硬件架构。
 
-Vivado Lab 2019.2 是专为实验室使用的精简版本，相较于 HLx edition，它支持的器件比较少。但是 Lab 版：
+实际上，Vitis 可以视为：C/C++/Python 开发工具 + Vivado 硬件开发工具 + AI 加速库 + 其它加速库。它可以让软件开发人员在无需掌握硬件专业知识的情况下，利用加速库来使用 FPGA 进行硬件加速；也让硬件开发人员设计的硬件快速嵌入到软件平台。
 
-- 支持我们实验所用的 A7 系列芯片
-- 支持实验所需的所有功能
-- 无须任何 License，完全免费
-- 下载体积远小于 HLx edition
+同时，Xilinx 面向硬件开发人员也提供独立的 Vivado HLx Edition。
 
-因此，建议大家使用该版本。
+目前（2020-03-13），Vitis 的最新版本是 Vitis Core Development Kit 2019.2 Update 1；Vivado 的最新版本是 Vivado HLx Edtions 2019.2 Update 1。
 
-安装过程，可以参考 [“Vivado HLx 2018.3 安装指南”](./install_guide.md)。
+### License
+
+- 请安装 Vivado Webpack 版本，因为：
+  - Webpack 版本在功能上没有缺失。
+  - 相比 HLx 版本，Webpack 版支持的器件较少。
+  - Webpack 版本完全免费。
+  - Webpack 版本完全满足课程学习的要求。
+- Vivado 2015.2 版本和 Vivado 最新版，安装 Webpack 版本的方法略有不同。
+  - Vivado 2015.2 版在安装时，需选择安装 Webpack 版本。请参考 [“简明安装指南”](./install-guide.md)。
+  - Vivado 2015.2 版需在 [Xilinx License](http://www.xilinx.com/getlicenses) 申请 Webpack License（免费），并安装在自己的 PC 上。
+  - Vivado 2019.2 版去掉了 Webpack 安装选项。但是无需担心：当设计中只使用了 Webpack 所支持的器件时（包括我们实验所用的 A7 系列 FPGA），Vivado 将跳过 License 检查，因此无需申请 License，也没有任何物理的 License 文件。
 
 
 
