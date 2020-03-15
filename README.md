@@ -35,7 +35,9 @@
 
 ## 课件
 
-[课件下载](./ppt/)
+[课件（含讲解）百度下载](https://pan.baidu.com/s/15eftbUP_h7w1AGIHujHKFQ)，提取码: j682。
+
+[课件下载（Github）](./lecture)
 
 
 
@@ -65,7 +67,7 @@
 
 ### 软件环境
 
-- 实验软件环境为：Xilinx Vivado HLx Editions 2015.2（并非 Vivado 的最新版本）。
+- 实验室软件环境为：Xilinx Vivado HLx Editions 2015.2（并非 Vivado 的最新版本）。
 - 若希望在自己的 PC 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。
   - Vivado 只支持 Windows / Linux，并不支持 macOS。
 - 最新版 Vivado 兼容本课程的所有实验，其使用界面与 2015.2 略有不同，适合有兴趣的同学自行摸索。
@@ -94,10 +96,12 @@ Xilinx 在 2019 年 10 月，推出了 “Vitis” 统一软件平台，其包�
   - 相比 HLx 版本，Webpack 版支持的器件较少。
   - Webpack 版本完全免费。
   - Webpack 版本完全满足课程学习的要求。
-- Vivado 2015.2 版本和 Vivado 最新版，安装 Webpack 版本的方法略有不同。
-  - Vivado 2015.2 版在安装时，需选择安装 Webpack 版本。请参考 [“简明安装指南”](./install-guide.md)。
+- Vivado 和 Vitis ，安装 Webpack 版本的方法略有不同。
+  - Vivado（2015.2 / 2019.2）在安装时，需选择安装 Webpack 版本。请参考 [“简明安装指南”](./install-guide.md)。
   - Vivado 2015.2 版需在 [Xilinx License](http://www.xilinx.com/getlicenses) 申请 Webpack License（免费），并安装在自己的 PC 上。
-  - Vivado 2019.2 版去掉了 Webpack 安装选项。但是无需担心：当设计中只使用了 Webpack 所支持的器件时（包括我们实验所用的 A7 系列 FPGA），Vivado 将跳过 License 检查，因此无需申请 License，也没有任何物理的 License 文件。
+  - Vivado 2019.2 版 License：当设计中只使用了 Webpack 所支持的器件时（包括我们实验所用的 A7 系列 FPGA），Vivado 将跳过 License 检查，因此无需申请 License，也没有任何物理的 License 文件。
+  - Vitis 安装过程中没有 Webpack 选项，但是它执行和 Vivado 2019.2 版本一样的 License 策略，即：无需任何的 License 就可以完成课程实验。
+- 建议安装 Vivado 2019.2 Webpack 版来完成课程实验。
 
 
 
