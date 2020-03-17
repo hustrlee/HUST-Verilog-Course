@@ -71,7 +71,7 @@
 - 若希望在自己的 PC 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。
   - Vivado 只支持 Windows / Linux，并不支持 macOS。
 - 最新版 Vivado 兼容本课程的所有实验，其使用界面与 2015.2 略有不同，适合有兴趣的同学自行摸索。
-- 可以使用（[Vivado 百度下载](https://pan.baidu.com/s/1eiOMdmoFHStSBLXcbzst6A)，提取码: qir8）来加速下载。
+- 可以使用（[Vivado 百度下载](https://pan.baidu.com/s/1ZoIvpsieQuQ3IRlmIStG9A)，提取码: xdnn）来加速下载。
 - 2020-03-13 更新：百度下载添加 Vivado HLx Editions 2019.2 版本下载。
 - 2020-03-13 更新：百度下载添加 Vitis Core Development Kit 2019.2 版本下载。
 
