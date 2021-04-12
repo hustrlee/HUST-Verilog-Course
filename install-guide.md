@@ -68,7 +68,7 @@ Vivado HLx 共提供了多个不同的 Edition，供用户按照需求自行选�
 - WebPACK 版本是 **free** 的，**无需任何 License**。
 - WebPACK 版本安装所需硬盘空间最小。
 
-![step03](/Users/rlee/Documents/GitHub/HUST-Verilog-Course/Screenshot/step03.png)
+![step03](./Screenshot/step03.png)
 
 
 
