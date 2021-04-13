@@ -11,7 +11,7 @@
   + [硬件环境](#硬件环境)
   + [软件环境](#软件环境)
   + [License](#License)
-  + [安装 Vivado](#安装Vivado)
+  + [安装Vivado](#安装Vivado)
 - [Q&A](#QA)
   + [Q：连不上实验板怎么办？](#Q连不上实验板怎么办)
   + [Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？](#Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？)
@@ -80,7 +80,7 @@
   - 相比 HLx 版本，Webpack 版支持的器件较少。
   - Webpack 版本包括本课程用到的 Xilinx Artix 7 系列 FPGA，完全满足课程学习的要求。
 
-### 安装 Vivado
+### 安装Vivado
 
 - 安装 Vivado 2020.2 Webpack 版本请参考 [“简明安装指南”](./install-guide.md)。
 - 可以使用 Vivado 2018.3 版本，该版本的下载大小远远小于最新版 Vivado。
