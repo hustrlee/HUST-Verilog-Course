@@ -11,7 +11,7 @@
   + [硬件环境](#硬件环境)
   + [软件环境](#软件环境)
   + [License](#License)
-  + [安装 Vivado](#安装 Vivado)
+  + [安装 Vivado](#安装Vivado)
 - [Q&A](#QA)
   + [Q：连不上实验板怎么办？](#Q连不上实验板怎么办)
   + [Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？](#Q：安装完毕后，仿真（Simulation）、综合（Synthesis）、实现（Implementation）等功能不能正常运行怎么办？)
