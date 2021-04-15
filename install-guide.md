@@ -17,6 +17,10 @@ Vivado HLx 2020.2 要求的操作系统版本如下：
 
 Vivado 2020.2 需要 Windows 10 Professional 1809 x64 版本。非专业版，或子版本号低于 1809 的，可能会出现未知的问题。
 
+> 由于 Vivado 是专业的工程软件，不像一般软件进行了大量的兼容性测试，因此 Vivado 对安装环境要求比较高。如果安装完毕后运行发生闪退（且没有任何提示），多半是因为和某个软件发生冲突造成的，没有很好的解决方法。建议：在虚拟机中安装 Vivado，来解决闪退的错误。
+
+
+
 ### 检查 Windows 10 的版本号
 
 - 使用快捷键“Win+r”，打开命令窗口。
@@ -52,9 +56,11 @@ Vivado 是一个非常消耗内存的应用程序，FPGA 器件规模越大、�
 
 ## Product Select
 
-**Xilinx Unified 2020.2** 包含了 Xilinx 的所有开发工具。我们的课程用到的是 **Vivado**。
+- **Xilinx Unified 2020.2** 包含了 Xilinx 的所有开发工具。我们的课程用到的是 **Vivado**。
 
 ![step02](Screenshot/step02.png)
+
+- **Xilinx Vivado 2018.2** 只包含 Vivado，没有这一步的选择。
 
 
 
@@ -67,6 +73,7 @@ Vivado HLx 共提供了多个不同的 Edition，供用户按照需求自行选�
 - WebPACK 版本可以对 Artix-7 系列 FPGA 进行全流程的设计和仿真。
 - WebPACK 版本是 **free** 的，**无需任何 License**。
 - WebPACK 版本安装所需硬盘空间最小。
+- 本步骤 2020.2 与 2018.2 相同。
 
 ![step03](./Screenshot/step03.png)
 
@@ -76,4 +83,11 @@ Vivado HLx 共提供了多个不同的 Edition，供用户按照需求自行选�
 
 如果希望节省硬盘空间和安装时间，可以使用如下的最小安装选项来完成本课程实验。
 
+- 2020.2 的选项表
+
 ![WebPACK 最小安装选项](./Screenshot/step04.png)
+
+- 2018.2 的选项表
+
+![WebPACK 最小安装选项](./Screenshot/install_options_minimal.jpg)
+

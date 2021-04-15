@@ -60,8 +60,9 @@
 
 ### 硬件环境
 
-- 实验需用到 DIGILENT 公司的 Nexys4 FPGA Board，请各组组长于实验课前，按到课人数，向实验室统一借取实验板；并于实验结束后，统一归还。
-- 实验板有两种，Nexys4 和 Nexy4 DDR。两种实验板的约束文件不同，请大家注意领取的实验板型号（在盒子封面以及实验板的中心位置有标识），使用不同的约束文件。（[Nexys4 约束文件](./Nexys4/Nexys4_Master.xdc)、[Nexys4 手册](./Nexys4/Nexys4_RM_VB2_Final_5.pdf)、[Nexys4 DDR 约束文件](./Nexys4/Nexys4DDR_Master.xdc)、[Nexys4 DDR 手册](./Nexys4/nexys4ddr_rm.pdf)）
+- 实验需用到 DIGILENT 公司的 Nexys4 DDR FPGA Board，请同学自行到 8 楼实验室借用。
+- 实验板型号为 Nexy4 DDR，请大家注意领取的实验板型号（在盒子封面以及实验板的中心位置有标识）。
+- Nexy4 DDR 的约束文件及手册下载：[Nexys4 DDR 约束文件](./Nexys4/Nexys4DDR_Master.xdc)、[Nexys4 DDR 手册](./Nexys4/nexys4ddr_rm.pdf)
 
 ### 软件环境
 
@@ -69,12 +70,16 @@
 - 若希望在自己的 PC 上安装 Vivado，可以在 Xilinx 网站下载安装该版本。
   - Vivado 只支持 Windows / Linux，并不支持 macOS，macOS 需安装虚拟机。
 - 最新版 Vivado 兼容本课程的所有实验，其使用界面与 2015.2 略有不同，适合有兴趣的同学自行摸索。
-- 可以使用（[Vivado 百度下载](https://pan.baidu.com/s/1ZoIvpsieQuQ3IRlmIStG9A)，提取码: xdnn）来加速下载。
-- 2021-04-12 更新：百度下载添加 Vivado HLx Editions 2020.2 版本下载。
+- 各个版本的 Vivado 均可在“超星学习通 - 资料”中可以下载。
+- 也可以使用（[Vivado 百度下载](https://pan.baidu.com/s/1ZoIvpsieQuQ3IRlmIStG9A)，提取码: xdnn）来加速下载。
 
 ### License
 
-- 从 Vivado 2017.1 版本后，Xilinx 添加了 Webpack 版本：
+- Vivado 2015.2 需要 License 才能正常运行所有功能。
+  - 用于实验室的 License 文件可以在“超星学习通 - 资料”中下载。
+  - 安装完毕后，使用“Manage Xilinx License”应用程序中的“Load License - Copy License”功能来安装 License 文件。
+
+- 从 Vivado 2017.1 版本后，Xilinx 取消了 Webpack 版本的 License：
   - Webpack 版本无需 License 即可使用。
   - Webpack 版本在功能上没有缺失。
   - 相比 HLx 版本，Webpack 版支持的器件较少。
@@ -82,9 +87,11 @@
 
 ### 安装Vivado
 
-- 安装 Vivado 2020.2 Webpack 版本请参考 [“简明安装指南”](./install-guide.md)。
-- 可以使用 Vivado 2018.3 版本，该版本的下载大小远远小于最新版 Vivado。
-- 可以使用 Vivado 2015.2 版本，该版本没有 Webpack 版本，安装后需使用相应的 License 文件进行激活。
+- 可以使用 Vivado 2020.2 版本，运行速度比较快。
+- 可以使用 Vivado 2018.2 版本，该版本的下载大小远远小于 Vivado 2020.2 版本。
+- 可以使用 Vivado 2015.2 版本，安装后需使用相应的 License 文件进行激活。
+
+- 安装过程请参考 [“简明安装指南”](./install-guide.md)。
 
 
 
